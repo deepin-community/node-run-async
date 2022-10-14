@@ -1,0 +1,40 @@
+node-run-async (2.4.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Remove dependency to node-is-promise
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Declare compliance with policy 4.6.0
+
+ -- Yadd <yadd@debian.org>  Fri, 24 Sep 2021 16:25:19 +0200
+
+node-run-async (2.4.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Paolo Greppi ]
+  * Update Vcs fields for migration to https://salsa.debian.org/
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Repository, Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Update metadata
+  * Use dh-sequence-nodejs auto test & install
+  * New upstream version 2.4.1
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 12 Oct 2020 16:53:07 +0200
+
+node-run-async (2.3.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #849147)
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Thu, 22 Dec 2016 23:30:11 +0000
